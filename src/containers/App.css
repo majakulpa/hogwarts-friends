@@ -1,0 +1,76 @@
+.main {
+  margin: 0;
+  padding: 0;
+
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.menu {
+  font-family: "IM Fell English SC", serif;
+}
+
+.navbar {
+  z-index: 100;
+}
+
+.card {
+  height: 50rem;
+  outline: 1px solid #dddddd;
+  outline-offset: -10px;
+  margin-right: 3rem;
+}
+
+.hcard,
+.card,
+.mcard {
+  list-style: none;
+  width: 23rem;
+}
+
+.search,
+.card,
+.header {
+  font-family: "IM Fell English SC", serif;
+}
+
+.header-main,
+.header {
+  font-family: "Henny Penny", cursive;
+  color: #eee;
+  padding-top: 3rem;
+  margin-top: 0;
+}
+
+.header-main {
+  text-align: center;
+  font-size: 3.5rem;
+
+  padding-bottom: 2.5rem;
+}
+
+.spell {
+  margin-right: 5rem;
+  height: 30rem;
+}
+
+.house {
+  margin-right: 3rem;
+}
+
+.search {
+  font-size: 18px;
+  border: none;
+  width: 80%;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1000px) {
+  .search {
+    width: 30%;
+  }
+}
+
+.search:focus {
+  outline-color: #333;
+}
