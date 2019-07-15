@@ -26,6 +26,7 @@
 .mcard {
   list-style: none;
   width: 23rem;
+  padding: 1rem;
 }
 
 .search,
